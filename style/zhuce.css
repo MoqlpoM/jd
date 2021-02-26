@@ -1,0 +1,226 @@
+@charset "UTF-8";
+body {
+  background: #f6f6f6; }
+
+.container {
+  margin: 0 auto;
+  width: 980px; }
+
+.header {
+  background: #fff;
+  border: #e2e2e2 solid 1px;
+  border-bottom: 4px solid #ff464e; }
+  .header .area {
+    position: relative;
+    height: 76px; }
+    .header .area .area-frist {
+      position: absolute;
+      left: 0px;
+      top: 17px; }
+      .header .area .area-frist .logo {
+        width: 210px;
+        height: 52px;
+        background-image: url(../image/header-total.gif);
+        background-repeat: no-repeat;
+        background-position: -78px -217px; }
+    .header .area .area-second {
+      position: absolute;
+      right: 0px;
+      background-position: 0 0;
+      height: 33px;
+      width: 465px;
+      top: 28px;
+      background-repeat: no-repeat;
+      background-image: url(../image/header-total.gif); }
+      .header .area .area-second a {
+        display: block;
+        float: left;
+        height: 16px;
+        width: 98px;
+        margin: 0 0px 0 34px; }
+    .header .area .banner-right-code {
+      display: block;
+      position: absolute;
+      right: -80px;
+      top: 125px;
+      z-index: 2; }
+  .header .mainNav {
+    height: 38px; }
+
+.miana .main {
+  width: 980px;
+  height: 573px;
+  margin-top: 20px; }
+  .miana .main .login-content {
+    width: 978px;
+    position: relative;
+    background: #fff;
+    overflow: hidden;
+    border: 1px solid #e2e2e2;
+    padding-bottom: 50px; }
+    .miana .main .login-content .title {
+      width: 878px;
+      height: 24px;
+      padding: 20px 50px;
+      border-bottom: #e2e2e2 solid 1px;
+      overflow: hidden; }
+      .miana .main .login-content .title .hd {
+        color: #ff464e;
+        font-size: 16px;
+        font-family: "微软雅黑", "宋体";
+        margin-right: 10px;
+        background: url(../image/hd-bg.gif) no-repeat center right;
+        padding-right: 20px;
+        float: left; }
+      .miana .main .login-content .title .tips {
+        color: #666;
+        float: left;
+        margin-top: 3px;
+        font-size: 12px; }
+      .miana .main .login-content .title .other {
+        float: right;
+        font-size: 14px;
+        color: #999; }
+        .miana .main .login-content .title .other a {
+          color: #0289cd;
+          font-size: 14px; }
+    .miana .main .login-content .login-center {
+      padding: 30px 80px 0 80px;
+      width: 818px;
+      height: 308px;
+      overflow: hidden; }
+      .miana .main .login-content .login-center .login-l-img {
+        float: right;
+        display: block;
+        overflow: hidden;
+        width: 358px;
+        text-align: right; }
+        .miana .main .login-content .login-center .login-l-img img {
+          border: 0;
+          text-align: right; }
+      .miana .main .login-content .login-center .login_list {
+        list-style: none;
+        float: left; }
+        .miana .main .login-content .login-center .login_list li {
+          padding-bottom: 25px;
+          overflow: visible;
+          position: relative;
+          height: 45px;
+          width: 450px; }
+          .miana .main .login-content .login-center .login_list li .btn {
+            float: left;
+            width: 260px; }
+            .miana .main .login-content .login-center .login_list li .btn .sub {
+              background-position: 0 0;
+              color: #fff;
+              width: 260px;
+              height: 40px;
+              cursor: pointer;
+              font-size: 16px;
+              border-radius: 2px;
+              background: url(../image/new-login.gif) no-repeat; }
+          .miana .main .login-content .login-center .login_list li .normal {
+            width: 80px;
+            text-align: right;
+            float: left;
+            display: inline;
+            height: 20px;
+            margin-top: 8px;
+            font-size: 14px; }
+          .miana .main .login-content .login-center .login_list li .normal-input {
+            color: #666;
+            padding: 12px 0 12px 10px;
+            height: 14px;
+            line-height: 14px;
+            width: 250px;
+            float: left; }
+          .miana .main .login-content .login-center .login_list li .otherregister {
+            height: 40px;
+            line-height: 40px;
+            padding-left: 6px;
+            display: inline-block;
+            margin-top: -2px;
+            font-size: 12px; }
+            .miana .main .login-content .login-center .login_list li .otherregister a {
+              color: #0289cd; }
+          .miana .main .login-content .login-center .login_list li .error-box {
+            margin-left: 10px;
+            width: 16px;
+            height: 16px;
+            margin-top: 10px;
+            color: #666;
+            float: left;
+            overflow: hidden;
+            font-size: 12px; }
+            .miana .main .login-content .login-center .login_list li .error-box strong {
+              width: 16px;
+              height: 16px;
+              background: url(../image/login.gif) no-repeat;
+              display: inline-block;
+              margin-right: 3px;
+              background-position: 0 -19px; }
+            .miana .main .login-content .login-center .login_list li .error-box .msg_error {
+              width: 330px;
+              height: 16px;
+              overflow: hidden;
+              position: absolute;
+              top: 42px;
+              left: 90px;
+              color: #ff464e; }
+          .miana .main .login-content .login-center .login_list li .box_border {
+            border: 1px solid #666;
+            width: 270px;
+            float: left; }
+            .miana .main .login-content .login-center .login_list li .box_border .user_img {
+              background: url(../image/name2.jpg) no-repeat #f1f1f1;
+              width: 39px;
+              height: 38px;
+              float: left; }
+            .miana .main .login-content .login-center .login_list li .box_border .code_img {
+              background: url(../image/code2.jpg) no-repeat #f1f1f1;
+              width: 39px;
+              height: 38px;
+              float: left; }
+            .miana .main .login-content .login-center .login_list li .box_border .normal-input {
+              width: 226px;
+              padding: 12px 0 12px 5px;
+              border: 0; }
+        .miana .main .login-content .login-center .login_list .chex-d {
+          padding-bottom: 8px;
+          height: 20px; }
+          .miana .main .login-content .login-center .login_list .chex-d .normal {
+            width: 80px;
+            text-align: right;
+            float: left;
+            display: inline;
+            height: 20px;
+            margin-top: 8px;
+            font-size: 14px; }
+          .miana .main .login-content .login-center .login_list .chex-d .chex {
+            width: 280px;
+            float: left; }
+            .miana .main .login-content .login-center .login_list .chex-d .chex span {
+              color: #5e5e5e;
+              float: left;
+              font-size: 12px; }
+              .miana .main .login-content .login-center .login_list .chex-d .chex span input {
+                vertical-align: -2px;
+                margin-right: 5px;
+                border: none; }
+            .miana .main .login-content .login-center .login_list .chex-d .chex a {
+              float: right;
+              color: #999;
+              font-size: 12px; }
+  .miana .main .foot-tips {
+    text-align: center;
+    margin: 40px auto 40px;
+    width: 900px;
+    font-size: 12px;
+    color: #666; }
+    .miana .main .foot-tips a {
+      color: #5e5e5e;
+      font-size: 12px; }
+  .miana .main .ft-company {
+    color: #5e5e5e;
+    font-size: 12px;
+    padding-top: 2px; }

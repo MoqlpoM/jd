@@ -1,0 +1,98 @@
+.container{margin: 0 auto;width: 1200px;}
+#toolbar{background: #f6f6f6;height: 30px;}
+#toolbar .toolbar-rigth{float:right;}
+#toolbar .toolbar-rigth div{float: left;font-size: 12px;height: 30px;box-sizing: border-box;padding: 8px 0px;}
+#toolbar .toolbar-rigth div a{color: black;margin-left:15px ;}
+#toolbar .toolbar-rigth div a:hover{color: red;}
+#toolbar .toolbar-rigth div .red{color: red;}
+#toolbar .toolbar-rigth .gouwu{width: 107px;background-image: url(../image/icon-total.png);background-position:15px -150px;background-repeat: no-repeat;}
+#toolbar .toolbar-rigth .gouwu a{margin-left: 40px;}
+#toolbar .toolbar-rigth .gouwu span:nth-of-type(1){display:inline-block;width: 18px;height: 18px;background: red;color:white ; text-align: center;line-height:18px;border-radius: 50%;}
+.header{background: #fff;}
+.header .area{position: relative;height: 85px;}
+.header .mainNav{height: 38px;}
+.header .area .area-frist{position:absolute;left: 0px;top: 17px;}
+.header .area .area-frist .logo{width: 210px;height: 52px;background-image: url(../image/header-total.gif);background-repeat: no-repeat;background-position: -78px -52px;}
+.header .area .area-second{position:absolute;right:290px;background-position: 0 0;height: 33px;width: 465px;top: 28px;background-repeat: no-repeat;background-image: url(../image/header-total.gif)}
+.header .area .area-seach{position:absolute; top: 25px;right: 0;width: 237px;height:35px;}
+.header .area .area-second a{display: block;float: left;height: 16px;width: 98px;margin: 0 0px 0 34px;}
+.header .area .area-seach .text{border: 0 none;outline: 0 none;display: block;float: left;background: #efefef;width: 190px;height: 35px;line-height: 30px;margin: 0px 0 0 10px;}
+.header .area .area-seach .smt{background-image:url(../image/header-total.gif) ;background-repeat:no-repeat; background-position: right -65px;display: block;border: 0 none;float: left;cursor: pointer;height: 35px;width: 37px;}
+.header .mainNav{width: 100%;height: 38px;border-bottom: 2px solid #ff464e;}
+.header .mainNav .navigation{float: left;display: inline;list-style: none;}
+.header .mainNav .navigation li{float: left;display: inline;height: 38px;position: relative;font-size: 12px;}
+.header .mainNav .navigation .hover a:hover{color: #FF0000;}
+.header .mainNav .navigation li a{float: left;cursor: pointer;padding: 10px 24px 0;color: #333;font-size: 14px;height: 30px;}
+.header .mainNav .navigation .current a{color: #F6F6F6;}
+.header .mainNav .navigation .current{border-radius: 6px 6px 0 0;background: #ff464e;}
+.header .mainNav .navigation .lasthover{background-image: url(../image/phone-new-20151119.png);background-repeat: no-repeat;background-position: 12px 12px;}
+.header .mainNav .navigation .lasthover .code-tips{position: absolute;left: -28px;top: 40px;background-color: #fff;border: #e2e2e2 solid 1px;padding: 5px;width: 148px;height: 173px;z-index: 100}
+.header .mainNav .navigation .lasthover	.code-tips .code-box .code{ height: 148px;width: 148px;background-image:url(../image/jp-app-90-new.png) ;background-repeat: no-repeat;}
+.line-cate-nav-location {height: 50px;}
+.line-cate-nav-location .line-cate-nav-wrapper {width: 100%;background-color: #fff;padding: 15px 0;}
+.line-cate-nav {width: 1200px;margin: 0 auto;height: 20px;line-height: 20px;}
+.line-cate-nav {list-style: none;}
+.line-cate-nav li {float: left;height: 20px;line-height: 20px;padding: 0 15px;}
+.line-cate-nav li.first {border-right: 1px solid #ccc;padding-left: 0;}
+.line-cate-nav li a {display: block;height: 20px;line-height: 20px;font-size: 14px;color: #333;}
+.line-cate-nav li.last a {color: #336600;}
+.goods-list ul{padding-left: 14px;box-sizing: border-box;list-style: none;background: white;overflow: hidden;}
+.goods-list ul li{padding-left: 4px;cursor: pointer; width: 230px;background: #FFF;float: left;margin: 0 6px 12px 0;height: 290px;box-sizing: border-box;padding-top: 6px;border: 1px solid transparent;}
+.goods-list ul li:hover{border: 1px solid gainsboro;}
+.pager{overflow: hidden;text-align: center;}
+.pager .yewei{height:45px;padding: 30px 0 45px;background: #FFF;}
+.pager .yewei .pgprev{cursor: pointer; padding: 10px 15px; color:gray;font-weight: normal;display: inline-block; background: #fff;width: 60px;border-radius: 20px 0 0 20px;box-shadow: 1px 1px 3px rgba(204, 204, 204, 0.7);}
+.pager .yewei .pgprevs{cursor: pointer; padding: 10px 15px; color:gray;font-weight: normal;display: inline-block;background: #fff;width: 60px;border-radius: 0px 20px 20px 0px;box-shadow: 1px 1px 3px rgba(204, 204, 204, 0.7);}
+.pager .yewei .pgpreva span{cursor: pointer;box-shadow:1px 1px #E2E2E2; vertical-align: middle;background:white;color:gray; border: medium none;font-weight: bold;display: inline-block;margin-left: 1px;padding: 10px 15px;overflow: hidden;}
+.pager .yewei .pgpreva span:nth-of-type(1){background: #ff464e;color: white;}
+.pager .yewei .pgpreva{display: inline;}
+.foot{height: 249px; position: relative;margin: 0 auto;margin-top: 40px;background: #f9f9f9;z-index: 100;border-top: #ce003f solid 4px;}
+.foot .con-box-n{padding-top: 25px;}
+.foot .app-side-box{float: left;display: inline;width: 90px;}
+.foot .app-side-box .app-show{ background-image: url(../image/jp-app-90-new.png) ;background-size: contain;height: 90px;width: 90px;margin-top: 5px;}
+.foot .app-side-box .app-txt{margin: 10px 0;}
+.foot .con-left-info{padding-left: 65px;width: auto;overflow: hidden;display: inline-block;}
+.foot  .con-left-info dt {font-size: 14px;color: #333;font-weight: bold;margin-bottom: 10px;padding-left: 7px;}
+.foot  .con-left-info dd {margin-bottom: 5px;color: #666;}
+.foot  .con-left-info dl a {color: #666;font-size: 12px;}
+.foot .con-left-info dd i {width: 4px;height: 4px;overflow: hidden;border-radius: 50%;background: #c6c6c6;display: inline-block;margin-right: 5px;float: left;margin-top: 8px;}
+.foot .fl {float: left;display: inline;    width: 200px;}
+.foot  .con-menu{margin-top: 35px;float: right;display: inline;width: 161px;}
+.foot  .con-menu a{background: url(../image/service_add.gif);float: left; display: block;width: 86px;height: 35px;background-position: 0 -5px;}
+.foot  .con-menu span{float: left;padding-left: 10px;width: 65px;font-size: 12px;color:#666;;}
+.foot  .con-menu .f12{  float: left;width: auto;  vertical-align: middle;line-height: 24px;    font-size: 12px;color: #666;}
+.foot .ft-company {text-align: center;padding-top: 20px;color: #c6c6c6;font-size: 12px;}
+.foot .ft-company a{color: #c6c6c6;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+body{background: #f6f6f6;}
+.container{margin: 0 auto;width:980px;}
+.header{background: #fff;border: #e2e2e2 solid 1px;border-bottom: 4px solid #ff464e;}
+.header .area{position: relative;height: 85px;}
+.header .mainNav{height: 38px;}
+.header .area .area-frist{position:absolute;left: 0px;top: 17px;}
+.header .area .area-frist .logo{width: 210px;height: 52px;background-image: url(../image/header-total.gif);background-repeat: no-repeat;background-position: -78px -217px;}
+.header .area .area-second{position:absolute;right:0px;background-position: 0 0;height: 33px;width: 465px;top: 28px;background-repeat: no-repeat;background-image: url(../image/header-total.gif);}
+.header .area .area-second a{display: block;float: left;height: 16px;width: 98px;margin: 0 0px 0 34px;}
+.header .area .banner-right-code{display: block;position: absolute;right: -80px;top: 125px;z-index: 2;}
+.miana .main{width: 980px;height: 573px;margin-top: 20px;}
+.miana .main .login-content {width: 978px;position: relative;background: #fff;overflow: hidden;border: 1px solid #e2e2e2;padding-bottom: 50px;}
+.miana .main .login-content .title {width: 878px;height: 65px; padding: 20px 50px;border-bottom: #e2e2e2 solid 1px;overflow: hidden;}
+.miana .main .login-content .login-center {padding: 30px 80px 0 80px;width: 818px;height:338px;overflow: hidden;}
+.miana .main .foot-tips {text-align: center;margin: 40px auto 40px;width: 900px;font-size: 12px; color: #666;}
+.miana .main .foot-tips a{color: #5e5e5e;font-size: 12px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
